@@ -1,0 +1,146 @@
+nav{
+    background-color: rgb(48, 46, 46);
+    height: 55px;
+}
+
+.nav-content{
+    height: 55px;
+    margin: 0 auto; 
+    max-width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left{
+    display: flex;
+}
+
+.nav-left-name{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    z-index: 2;
+}
+
+.nav-left-circle{
+    width: 17px;
+    height: 17px;
+    background-color:#6969f0;
+    position: relative;
+    right: 8px;
+    top: 20px;
+    border-radius: 50%;
+    z-index:1;
+}
+
+.nav-right{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-right-el{
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.nav-right-btn{
+    font-weight: bold;
+    background-color: #6969f0;
+    width: 85px;
+    height: 32px;
+    color: white;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.button-nav-resp-big , .nav-right-respphone{
+    display: none;
+}
+
+
+@media screen  and (max-width:1440px){
+
+    .nav-content{
+        max-width: 80%;
+    }
+    
+}
+
+
+
+@media screen  and (max-width:768px){
+
+    .nav-content{
+        max-width: 90%;
+    }
+    
+    .nav-right{
+        gap: 15px;
+    }
+}
+
+
+@media screen  and (max-width:650px){
+
+    .nav-content{
+        max-width: 90%;
+    }
+    
+    .nav-right{
+        display: none;
+        position: relative;
+    }
+
+    .button-nav-resp-big{
+        display: block;
+        position: absolute;
+        right: 20px; 
+        top: 10px; 
+        color: white;
+        width: 30px;
+        height: 30px;
+    }
+
+    .nav-right-resp{
+        top: 170px;
+        right: 35px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 125px;
+        height: 325px;
+        background-color: red;
+        justify-content: space-evenly;
+        list-style-type:none ;
+        border-radius: 15px;
+    }
+
+    .close-btn-resp{
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        font-size: 20px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .nav-right-resp-btn{
+        background-color: #6969f0;
+        width: 95px;
+        height: 35px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+
+    
+}
