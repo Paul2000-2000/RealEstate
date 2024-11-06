@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav>
       <div className="nav-content">
         <div className="nav-left">
-          <p className="nav-left-name">Homyz</p>
+          <p className="nav-left-name">Paul</p>
           <div className="nav-left-circle"></div>
         </div>
         <ul className="nav-right">
