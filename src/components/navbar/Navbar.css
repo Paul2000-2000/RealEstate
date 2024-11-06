@@ -1,6 +1,8 @@
 nav{
     background-color: rgb(48, 46, 46);
     height: 55px;
+    width: 100%;
+    position: fixed;
 }
 
 .nav-content{
@@ -29,7 +31,6 @@ nav{
     background-color:#6969f0;
     position: relative;
     right: 8px;
-    top: 20px;
     border-radius: 50%;
     z-index:1;
 }

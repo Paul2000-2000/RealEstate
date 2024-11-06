@@ -3,10 +3,12 @@ import "./Hero.css";
 import { FaPlus } from "react-icons/fa";
 import { CiLocationOn } from "react-icons/ci";
 import HeroImage from "../../assests/hero-image.png";
+import Navbar from "../../components/navbar/Navbar.js";
 
 const Hero = () => {
   return (
     <div className="hero">
+      <Navbar />
       <div className="hero-content">
         <div className="hero-left">
           <h1 className="hero-left-title">Discover Most Suitable Property</h1>
