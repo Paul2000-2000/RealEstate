@@ -71,8 +71,12 @@
     margin-top: 15px;
 }
 
-@media screen and (max-width: 1235px) {
+@media screen and (max-width: 1255px) {
     
+    .value{
+        height: auto;
+    }
+
     .value-content{
         flex-direction: column;
         height: auto;
