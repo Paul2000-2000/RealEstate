@@ -1,0 +1,137 @@
+.contact{
+    height: 65vh;
+   margin-top: 15px;
+}
+
+.contact-content{
+    height: 100%;
+    margin: 0 auto; 
+    max-width: 65%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.contact-left{
+    
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.contact-left-firsth{
+    font-size: 24px;
+    color: orange;
+    
+}
+
+.contact-left-secondh{
+    font-size: 26px;
+    color: #275e92;
+}
+
+.contact-left-desc{
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.contact-left-contact{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+   
+}
+
+.contact-left-contact-div{
+    width: 35%;
+    border: solid 2px grey;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.contact-left-contact-div-tho{
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+
+.contact-left-contact-div-but{
+    width: 85%;
+    height: 25px;
+    color: white;
+    background-color: #275e92;
+    border: none;
+}
+
+.contact-right{
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contact-right-img{
+    height: 375px;
+    width: 315px;
+    object-fit: cover;
+    border-radius: 50% 50% 0 0;
+}
+
+@media screen  and (max-width:1250px){
+
+    .contact{
+        height: auto;
+    }
+
+    .contact-content{
+        max-width: 80%;
+        flex-direction: column;
+    }
+
+    .contact-left{  
+        width: 100%;
+    }
+
+    .contact-left-contact-div{
+        width: 35%;
+       
+    }
+    
+}
+
+
+@media screen  and (max-width:768px){
+    .contact-left-contact-div{
+        width: 45%;
+       
+    }
+}
+
+@media screen  and (max-width:450px){
+    .contact-left-contact{
+        flex-direction: column;
+    }
+
+
+    .contact-left-contact-div{
+        width: 75%;
+       
+    }
+
+    .contact-right-img{
+        height: 300px;
+        width: 250px;
+    }
+}

@@ -199,7 +199,7 @@
     }
 
     .hero-right-img {
-        height: 85%; /* Ensures the image fits within the section */
+        height: 85%; 
         width: 95%;
         object-fit: cover;
         border-radius: 85% 85% 0px 0px;

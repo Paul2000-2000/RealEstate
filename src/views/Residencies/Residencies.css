@@ -45,10 +45,11 @@
 }
 
 
-@media screen  and (max-width:1450px){
+@media screen  and (max-width:1250px){
 
     .residencies-content{
         max-width: 80%;
+        
     }
     
 }
