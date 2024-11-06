@@ -3,6 +3,7 @@ import GetStarted from "./views/GetStarted/GetStarted";
 import Hero from "./views/Hero/Hero";
 import Residencies from "./views/Residencies/Residencies";
 import Value from "./views/Value/Value";
+import Footer from "./views/Footer/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Value />
       <Contact />
       <GetStarted />
+      <Footer />
     </div>
   );
 }
