@@ -1,0 +1,37 @@
+.residencie{
+    width: 235px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.residencie-img{
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
+.residencie-money{
+    display: flex;
+    align-items: center;
+    
+}
+
+.residencie-money-icon{
+    color: orange;
+    font-size: 20px;
+}
+
+.residencie-name{
+    color: #275e92;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.residencie-description{
+    font-size: 12px;
+    color: gray;
+}

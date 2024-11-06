@@ -1,0 +1,54 @@
+.residencies{
+    height: auto;
+    overflow: hidden;
+}
+
+.residencies-content{
+    
+    max-width: 65%;
+    margin: auto;
+}
+
+.residencies-images{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.residencies-images-img{
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+}
+
+.residencies-content-firsth{
+    color: orange;
+    font-size: 27px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.residencies-content-secondh{
+    color: #275e92;
+    font-size: 27px;
+    margin-bottom: 25px;
+}
+
+.residencies-content-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* Align items to the start with minimal space */
+    gap: 15px;
+}
+
+
+@media screen  and (max-width:1450px){
+
+    .residencies-content{
+        max-width: 80%;
+    }
+    
+}

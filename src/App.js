@@ -1,11 +1,13 @@
-import Navbar from "./components/navbar/Navbar";
 import Hero from "./views/Hero/Hero";
+import Residencies from "./views/Residencies/Residencies";
+import Value from "./views/Value/Value";
 
 function App() {
   return (
     <div>
-      <Navbar />
       <Hero />
+      <Residencies />
+      <Value />
     </div>
   );
 }
